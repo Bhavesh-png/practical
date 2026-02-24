@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Registration Form</title>
+</head>
+<body>
+
+<h2>Website Registration Form</h2>
+
+<form method="post" action="website_display.php">
+
+Username:
+<input name="username" type="text"><br><br>
+
+Email:
+<input name="email" type="text"><br><br>
+
+Gender:
+<input name="gender" type="radio" value="Male"> Male
+<input name="gender" type="radio" value="Female"> Female
+<br><br>
+
+Skills:
+<input name="skills[]" type="checkbox" value="HTML"> HTML
+<input name="skills[]" type="checkbox" value="CSS"> CSS
+<input name="skills[]" type="checkbox" value="PHP"> PHP
+<br><br>
+
+Country:
+<select name="country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="UK">UK</option>
+</select>
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form method="post" action="display.php">
+
+Name:
+<input name="name" type="text"><br><br>
+
+Gender:
+<input name="gender" type="radio" value="Male"> Male
+<input name="gender" type="radio" value="Female"> Female
+<br><br>
+
+Hobbies:
+<input name="hobby[]" type="checkbox" value="Reading"> Reading
+<input name="hobby[]" type="checkbox" value="Sports"> Sports
+<input name="hobby[]" type="checkbox" value="Music"> Music
+<br><br>
+
+Course:
+
+<select name="course">
+<option value="BCA">BCA</option>
+<option value="BSc">BSc</option>
+<option value="MCA">MCA</option>
+</select>
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
